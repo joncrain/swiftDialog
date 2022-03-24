@@ -1,5 +1,5 @@
 //
-//  appVaribles.swift
+//  appVariables.swift
 //  dialog
 //
 //  Created by Bart Reardon on 10/3/21.

@@ -58,7 +58,7 @@
 		41D81E5725F7929800D1F7E1 /* DialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D81E5625F7929800D1F7E1 /* DialogView.swift */; };
 		41D81E5C25F817BF00D1F7E1 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D81E5B25F817BF00D1F7E1 /* ButtonView.swift */; };
 		41D81E6C25F8209F00D1F7E1 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D81E6B25F8209F00D1F7E1 /* Options.swift */; };
-		41D81E7125F845D200D1F7E1 /* appVaribles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D81E7025F845D200D1F7E1 /* appVaribles.swift */; };
+		41D81E7125F845D200D1F7E1 /* appVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D81E7025F845D200D1F7E1 /* appVariables.swift */; };
 		41D81E7925F870A500D1F7E1 /* Processing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D81E7825F870A500D1F7E1 /* Processing.swift */; };
 		41E4BC9726AEDB130042A0A3 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 41E4BC9626AEDB130042A0A3 /* MarkdownUI */; };
 		41FB64872680855300A54C3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4154C2DF25F76BDB00A3D373 /* ContentView.swift */; };
@@ -76,7 +76,7 @@
 		41FB64932680855300A54C3E /* License.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41110A2725F9E79E008171D2 /* License.swift */; };
 		41FB64942680855300A54C3E /* StringProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4153783126001A0900AA0E76 /* StringProcessing.swift */; };
 		41FB64952680855300A54C3E /* dialogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4154C2DD25F76BDB00A3D373 /* dialogApp.swift */; };
-		41FB64962680855300A54C3E /* appVaribles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D81E7025F845D200D1F7E1 /* appVaribles.swift */; };
+		41FB64962680855300A54C3E /* appVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D81E7025F845D200D1F7E1 /* appVariables.swift */; };
 		41FD45FE26C40366006976FC /* timerBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FD45FD26C40366006976FC /* timerBarView.swift */; };
 		41FD460026C8DC5D006976FC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FD45FF26C8DC5D006976FC /* ImageView.swift */; };
 /* End PBXBuildFile section */
@@ -150,7 +150,7 @@
 		41D81E5625F7929800D1F7E1 /* DialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogView.swift; sourceTree = "<group>"; };
 		41D81E5B25F817BF00D1F7E1 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		41D81E6B25F8209F00D1F7E1 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
-		41D81E7025F845D200D1F7E1 /* appVaribles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appVaribles.swift; sourceTree = "<group>"; };
+		41D81E7025F845D200D1F7E1 /* appVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appVariables.swift; sourceTree = "<group>"; };
 		41D81E7825F870A500D1F7E1 /* Processing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Processing.swift; sourceTree = "<group>"; };
 		41FB6480268070CF00A54C3E /* dialogcli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dialogcli; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FD45FD26C40366006976FC /* timerBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timerBarView.swift; sourceTree = "<group>"; };
@@ -232,7 +232,7 @@
 				41C8259825F99AF90042DC50 /* UI */,
 				4154C30C25F782E900A3D373 /* extras */,
 				4154C2DD25F76BDB00A3D373 /* dialogApp.swift */,
-				41D81E7025F845D200D1F7E1 /* appVaribles.swift */,
+				41D81E7025F845D200D1F7E1 /* appVariables.swift */,
 				4154C2E125F76BDC00A3D373 /* Assets.xcassets */,
 				4154C2E625F76BDC00A3D373 /* Info.plist */,
 				4154C2E725F76BDC00A3D373 /* dialog.entitlements */,
@@ -531,7 +531,7 @@
 				41110A2825F9E79E008171D2 /* License.swift in Sources */,
 				4154C2DE25F76BDB00A3D373 /* dialogApp.swift in Sources */,
 				41D81E6C25F8209F00D1F7E1 /* Options.swift in Sources */,
-				41D81E7125F845D200D1F7E1 /* appVaribles.swift in Sources */,
+				41D81E7125F845D200D1F7E1 /* appVariables.swift in Sources */,
 				41D81E7925F870A500D1F7E1 /* Processing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,7 +585,7 @@
 				41FB64942680855300A54C3E /* StringProcessing.swift in Sources */,
 				4114E1EB27154B2200388274 /* VideoView.swift in Sources */,
 				41FB64952680855300A54C3E /* dialogApp.swift in Sources */,
-				41FB64962680855300A54C3E /* appVaribles.swift in Sources */,
+				41FB64962680855300A54C3E /* appVariables.swift in Sources */,
 				41AD75B626AA81760023EBD8 /* TextEntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
