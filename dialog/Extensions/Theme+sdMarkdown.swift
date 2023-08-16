@@ -64,30 +64,24 @@ extension Theme {
         .markdownMargin(top: 10, bottom: 10)
     }
     .heading1 { configuration in
-      VStack(alignment: .leading, spacing: 0) {
-        configuration.label
-          .relativePadding(.bottom, length: .em(0.3))
-          .relativeLineSpacing(.em(0.125))
-          .markdownMargin(top: 24, bottom: 16)
-          .markdownTextStyle {
-            FontWeight(.semibold)
-            FontSize(.em(2))
-          }
-        Divider().overlay(Color.divider)
-      }
+      configuration.label
+        .relativePadding(.bottom, length: .em(0.3))
+        .relativeLineSpacing(.em(0.125))
+        .markdownMargin(top: 24, bottom: 16)
+        .markdownTextStyle {
+          FontWeight(.bold)
+          FontSize(.em(2))
+        }
+      Divider().overlay(Color.divider)
     }
     .heading2 { configuration in
-      VStack(alignment: .leading, spacing: 0) {
-        configuration.label
-          .relativePadding(.bottom, length: .em(0.3))
-          .relativeLineSpacing(.em(0.125))
-          .markdownMargin(top: 24, bottom: 16)
-          .markdownTextStyle {
-            FontWeight(.semibold)
-            FontSize(.em(1.5))
-          }
-        Divider().overlay(Color.divider)
-      }
+      configuration.label
+        .relativeLineSpacing(.em(0.125))
+        .markdownMargin(top: 24, bottom: 16)
+        .markdownTextStyle {
+          FontWeight(.bold)
+          FontSize(.em(1.5))
+        }
     }
     .heading3 { configuration in
       configuration.label
